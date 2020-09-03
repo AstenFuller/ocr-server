@@ -1,0 +1,34 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "Simple sudoku game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "build": "",
+    "dev": "parcel watch public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstenFuller/sudoku.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "file-loader": "^6.1.0",
+    "morgan": "^1.9.1",
+    "node-tesseract-ocr": "^2.0.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "tesseract-ocr": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6"
+  }
+}
